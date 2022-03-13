@@ -1,6 +1,7 @@
-# mirrord-protocol (WIP)
+# mirrord-protocol
 
-*WIP*
+This is a cargo library that implements the mirrord-protocol between the [agent](https://github.com/metalbear-co/mirrord-agent) and [client](https://github.com/metalbear-co/mirrord).
+
 # Changelog
 All notable changes to this project will be documented in this file.
 
