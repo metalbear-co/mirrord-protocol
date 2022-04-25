@@ -34,7 +34,7 @@ pub struct LogMessage {
 pub enum ClientMessage {
     PortSubscribe(Vec<u16>),
     Close,
-    ConnectionUnsubscribe(Port),
+    ConnectionUnsubscribe(ConnectionID),
 }
 
 #[derive(Encode, Decode, Debug, PartialEq, Clone)]
