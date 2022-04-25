@@ -27,5 +27,4 @@ jobs:
       with:
         profile: minimal
         toolchain: stable
-    - run: cargo fmt --all -- --check
     - run: cargo test
